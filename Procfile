@@ -1,1 +1,1 @@
-notification: export PYTHONPATH=.:./appsrc; python appsrc/notificationservice.py
+notification: export PYTHONPATH=.:./appsrc:./appsrc/libs/; python appsrc/notificationservice.py
