@@ -40,7 +40,7 @@
       },
       "SANDBOX": {
         "Description" : "Connects to a sandbox or a scratch org (True/False)",
-        "value" : "False",
+        "value" : "True",
         "required" : true
       },
       "JWTKEY": {
@@ -50,7 +50,7 @@
       },
       "SUBSCRIBE_CHANNEL": {
         "Description" : "name of the channel the service must connect to when starting",
-        "value" : "fill me",
+        "value" : "notifications",
         "required" : true
       }
     }
