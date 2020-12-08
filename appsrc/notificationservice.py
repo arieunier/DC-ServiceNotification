@@ -1,5 +1,5 @@
 import ujson
-from libs import logs, queuer, rabbitmq_utils, config, rediscache, sfapi, postgres, utils
+from dclibs import logs, queuer, rabbitmq_utils, config, rediscache, sfapi, postgres, utils
 LOGGER = logs.LOGGER
 
 SERVICE_NAME='notificationservice'
